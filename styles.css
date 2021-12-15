@@ -6,3 +6,68 @@ dark-blue - #134d71;
 white - #ffffff;
 black - #000000;
 */
+html {
+  height: 100%;
+  background-image: linear-gradient(#134d71, #78a7c6, #f7e4bf);
+  text-align: center;
+}
+h1 {
+  font-size: x-large;
+  color: white;
+  font-weight: bold;
+  font-family: "EB Garamond", serif;
+};
+.with-a-class {
+  font-style: italic;
+};
+#with-an-id {
+  color: white;
+};
+body {
+
+};
+.bell {
+  border-radius: 25px;
+  border-width: 100px;
+};
+button {
+  color: #ffffff;
+  background-color: #134d71;
+  botder-color: #134d71;
+  padding: 10px;
+  font-size: 80%;
+  display:inline-flex;
+
+};
+article {
+  background-color: #ffffff;
+}
+svg {
+  border-style: solid;
+  border-color: #ffffff;
+  height: 100px;
+  width: 100px;
+  border-width: 10px
+  border-style: outset;
+}
+.receive {
+  padding: 5px 20px;
+
+}
+.checkbox-round {
+    width: 1.3em;
+    height: 1.3em;
+    background-color: white;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 2px solid #000;
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    display:inline-block;
+}
+
+.checkbox-round:checked {
+    background-color: blue;
+}
